@@ -1,5 +1,6 @@
 import React, { memo, useCallback, useState, useEffect} from 'react';
 import Api from '../../api';
+import {ContainerStyled} from './style';
 function Main(){
     const [ data, setData]= useState({})
     const [country, setCountry]= useState('brazil')
@@ -13,9 +14,12 @@ function Main(){
         getCovidData(country)
     },[getCovidData,country])
     return (
-        <div>
-            
-        </div>
+        <ContainerStyled>
+            <div className='mb-2'>
+
+            </div>
+
+        </ContainerStyled>
     )
 }
 
