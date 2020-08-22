@@ -5,7 +5,7 @@ import {
     LabelStyled,
     ValueStyled,
     CardContentStyled
-} from './style';
+} from '../../Main/components/style';
 
 function Card({value, label, color}){
     return(

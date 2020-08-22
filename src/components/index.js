@@ -1,4 +1,5 @@
-import {Card, CardContent } from '../components/Card';
+import Card  from '../components/Card';
+import  CardContent  from '../components/Card';
 import Button from '../components/Button';
 import Grid from '../components/Grid';
 import Typography from '../components/Typography';
@@ -8,6 +9,8 @@ import MenuItem from '../components/MemuItem';
 
 export {
     Button,
+    Card,
+    CardContent,
     Grid,
     Typography,
     Skeleton,
