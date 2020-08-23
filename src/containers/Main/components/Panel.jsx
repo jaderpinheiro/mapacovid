@@ -1,5 +1,5 @@
 import React, {memo} from 'react';
-import RefreshIcon from '../../../assests/images/carregando.svg';
+//import RefreshIcon from '../../../assests/images/carregando.svg';
 import {Card, Typography, Button, Select, MenuItem} from '../../../components/';
 import Countries from '../../../commons/constants/countries'
 import {CardPanelContentStyled, ItemStyled } from './style';
@@ -19,7 +19,8 @@ function Panel({ updateAt, onChange, data, country, getCoviddata}){
         </MenuItem>
         )
     }
-    const textCovid19 =`País:  ${country} - recuperados: ${recovered}`;
+    const textCovid19 =`País:  ${country} - Recuperados: ${recovered} - Casos: ${cases} - Mortes: ${deaths} 
+    - Casos Hoje: ${todayCases} - Mortes Hoje ${todayDetahs}`;
 
     const copyInfo = () => {
         navigator.clipboard.writeText(textCovid19)
