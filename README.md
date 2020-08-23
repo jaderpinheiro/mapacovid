@@ -1,7 +1,6 @@
 # Mapa Covid
 
 Se você quizer dar uma olhada  fique a vontade, é só usar o link. <a href="https://mapa-covid-2.netlify.app/" target="_blanck" title="Mapa Covid" target="_blank">Link App</a> :nerd_face:
-https://mapa-covid-2.netlify.app/=<LABEL>&message=<MESSAGE>&color=<COLOR>&style=<STYLE>&logo=<LOGO>
 
 
 # Sobre esse projeto
@@ -47,9 +46,9 @@ $ yarn start
 
 ### Components e versões usadas.
 
-    - [X] material: "^4.11.0",    :heavy_check_mark:
-    - [X] React: "^16.13.1",    :heavy_check_mark:
-    - [X] styled-components: "^5.1.1"    :heavy_check_mark:
+    -[X] material: ^4.11.0,    :heavy_check_mark:
+    -[X] React: ^16.13.1,    :heavy_check_mark:
+    -[X] styled-components: ^5.1.1    :heavy_check_mark:
 
 
 
