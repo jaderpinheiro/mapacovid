@@ -1,5 +1,5 @@
 import React, {memo} from 'react';
-import RefreshIcon from '../../../assests/imges/carregando.svg';
+import RefreshIcon from '../../../assests/images/carregando.svg';
 import {Card, Typography, Button, Select, MenuItem} from '../../../components/';
 import Countries from '../../../commons/constants/countries'
 import {CardPanelContentStyled, ItemStyled } from './style';
@@ -13,12 +13,41 @@ function Panel({ updateAt, onChange, data, country, getCoviddata}){
         return(
         <MenuItem key={`country-${index}`} value={country.value}>
             <ItemStyled>
-                <div>{country.label}</div>
-                <img src={country.flag} alt={`País-${country.label}`} />
+                <div>{country.label} </div>
+                <img src={country.flag} alt={`País-${country.label}`} width={40}  />
             </ItemStyled>
         </MenuItem>
         )
     }
+    const textCovid19 =`País:  ${country} - recuperados: ${recovered}`;
+
+    const copyInfo = () => {
+        navigator.clipboard.writeText(textCovid19)
+    }
+    const shareInfo=() =>{
+        navigator.share({
+            title:`Dados do Covid19 - ${country}`,
+            text: textCovid19,
+            url:'https://covid19dio.netlify.app/'
+        })
+    }
+
+    const renderShareButton =(
+        <div>
+            <Button variant="contained" color="primary" onClick={shareInfo}>
+                Compartilhar
+            </Button>
+        </div>
+    )
+
+    const renderCopyButton = (
+        <div>
+            <Button variant="caontainer" color="primary" onClick={copyInfo}>
+                Copiar
+            </Button>
+        </div>
+    )
+    
 
     return (
         <Card>
@@ -39,6 +68,7 @@ function Panel({ updateAt, onChange, data, country, getCoviddata}){
                         </Select>
                     </div>
                 </div>
+                {navigatorHasShare ? renderShareButton : renderCopyButton}
             </CardPanelContentStyled>
         </Card>
     )
