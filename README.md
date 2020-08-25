@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Mapa Covid
 
-## Available Scripts
+Se você quizer dar uma olhada  fique a vontade, é só usar o link. <a href="https://mapa-covid-2.netlify.app/" target="_blanck" title="Mapa Covid" target="_blank">Link App</a> :nerd_face:
 
-In the project directory, you can run:
+![certificado](https://media.tenor.com/images/ae4db79951d1d4316ff42773727caac9/tenor.gif)
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Sobre esse projeto
+<p>É uma aplicação uma progressive web application com React para mapear os dados do COVID19 pelo mundo, <i>também usei o netlify para fazer a integração.<i></p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Por quê?
+<p>Este projeto faz parte do meu portfólio pessoal, portanto, ficarei feliz se você puder me fornecer algum feedback sobre o projeto, código, estrutura ou qualquer coisa que você possa relatar.</p>
 
-### `yarn test`
+Para falar comigo <a href="https://br.linkedin.com/in/jader-borges-pinheiro-a0b68920" title="Jader Borges Pinheiro">Linkedin</a>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>Além disso, você pode usar este projeto como desejar, estudar, fazer melhorias.</p>
 
-### `yarn build`
+É grátis!
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Algumas observações sobre o Mapa Covid
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1 - Uma unica tela a qual mostra todas as informações e funcionalidades.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2 - Existe um campo de seleção a qual pode se escolher o País para ter as inforamções sobre o Covid em tempo real.
 
-### `yarn eject`
+3 - Usa uma api gratuita de inforamções do covid.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Para deploy na sua máquina.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pré-requisitos
+>Para executar este projeto no modo de desenvolvimento, você precisará de um ambiente básico para executar.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Instalando
+Clonando o Repositório
 
-## Learn More
+$ git clone https://github.com/jaderpinheiro/mapacovid
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+$ cd mapacovid
+Instalando dependências
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+$ yarn
+ou
 
-### Code Splitting
+$ npm install
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+$ yarn start
 
-### Analyzing the Bundle Size
+### Components e versões usadas.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+    -[X] material: ^4.11.0,    
+    -[X] React: ^16.13.1,    
+    -[X] styled-components: ^5.1.1    
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+### :trophy: Contribuindo
+:thumbsup: Você pode enviar quantos PR's deseja, ficarei feliz em analisá-los e aceitá-los! 
 
-### Deployment
+Obrigado!:v:
+[<img src="https://avatars3.githubusercontent.com/u/11282655?s=460&u=396f24d331dc76482f9ce2aedbaba2c93ccdf23b&v=4" width=115 > <br> <sub> Jader B Pinheiro </sub>](https://github.com/jaderpinheiro) |
+| :---: |  
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---
+<p>Licença
+Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE.md para obter detalhes.</p>
