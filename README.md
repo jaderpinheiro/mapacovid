@@ -48,9 +48,9 @@ $ yarn start
 
 ### Components e versões usadas.
 
-    -[X] material: ^4.11.0,    
-    -[X] React: ^16.13.1,    
-    -[X] styled-components: ^5.1.1    
+    [X] materialUI: ^4.11.0,    
+    [X] React: ^16.13.1,    
+    [X] styled-components: ^5.1.1    
 
 
 
