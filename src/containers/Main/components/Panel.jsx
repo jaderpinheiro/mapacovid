@@ -47,8 +47,7 @@ function Panel({ updateAt, onChange, data, country, getCoviddata}){
                 Copiar
             </Button>
         </div>
-    )
-    
+    )   
 
     return (
         <Card>
